@@ -210,8 +210,7 @@ This pipeline can be extended for:
 ## 👨‍💻 Author
 
 **Pavan Mahindrakar**
-MCA | Aspiring Data Engineer / Data Analyst
-
+MCA | Aspiring Data Engineer | AI / ML Enthusiast | Data Scientist
 ---
 
 ⭐ *If you found this project useful, feel free to connect or share!*
