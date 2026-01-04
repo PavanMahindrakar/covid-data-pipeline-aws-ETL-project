@@ -180,7 +180,7 @@ ORDER BY d.year, d.month, total_cases DESC;
 * **Schema Discovery:** AWS Glue Crawler
 * **Serverless SQL:** Amazon Athena
 * **ETL:** AWS Glue (Python)
-* **Data Warehouse:** Amazon Redshift (RA3.large)
+* **Data Warehouse:** Amazon Redshift (ra3.xlplus)
 * **Security:** IAM Roles & Policies
 * **Networking:** Amazon VPC + S3 Gateway Endpoint
 * **Languages:** Python, SQL
@@ -209,8 +209,8 @@ This pipeline can be extended for:
 
 ## 👨‍💻 Author
 
-**Pavan Mahindrakar**
-MCA | Aspiring Data Engineer / Data Analyst
+**Pavan Mahindrakar** -
+Aspiring Data Scientist | AI/ML Enthusiast | Data Engineer
 
 ---
 
