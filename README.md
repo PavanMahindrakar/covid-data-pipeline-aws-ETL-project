@@ -49,11 +49,6 @@ Amazon Redshift (Data Warehouse)
 * Stores **raw COVID-19 datasets** from multiple public sources
 * Stores **processed fact and dimension tables** as CSV files
 
-**Example paths:**
-
-* `s3://pavan-covid-etl-de-project/enigma-jhud/`
-* `s3://pavan-covid-etl-de-project/output/factCovid.csv`
-
 ---
 
 ### 2️⃣ AWS Glue Crawler
@@ -61,10 +56,6 @@ Amazon Redshift (Data Warehouse)
 * Automatically scans S3 data
 * Infers schema and creates tables in the Glue Data Catalog
 * Enables Athena and Glue ETL to work without manual schema definition
-
-📌 *Glue Crawler Screenshot*
-
-![Glue Crawler](images/glue_crawler.png)
 
 ---
 
@@ -75,10 +66,6 @@ Amazon Redshift (Data Warehouse)
   * Explore raw datasets directly on S3
   * Validate schema and data quality
 * No infrastructure to manage
-
-📌 *Athena Query Screenshot*
-
-![Athena Query](images/athena_query.png)
 
 ---
 
@@ -95,10 +82,6 @@ Amazon Redshift (Data Warehouse)
 * Type standardization
 * Fact & dimension table preparation
 
-📌 *Glue ETL Job Screenshot*
-
-![Glue Job](images/glue_job.png)
-
 ---
 
 ### 5️⃣ Amazon Redshift (Data Warehouse)
@@ -113,10 +96,6 @@ Amazon Redshift (Data Warehouse)
 * **Region:** `ap-south-1`
 * **Purpose:** Analytical workloads & SQL reporting
 
-📌 *Redshift Cluster Screenshot*
-
-![Redshift Cluster](images/redshift_cluster.png)
-
 ---
 
 ### 6️⃣ IAM (Security & Access Control)
@@ -128,10 +107,6 @@ Amazon Redshift (Data Warehouse)
   * Glue execution
   * Redshift loading
 
-📌 *IAM Role Screenshot*
-
-![IAM Role](images/iam_role.png)
-
 ---
 
 ### 7️⃣ Amazon VPC (Networking)
@@ -139,10 +114,6 @@ Amazon Redshift (Data Warehouse)
 * Glue job runs inside the **same VPC as Redshift**
 * Ensures private, secure connectivity
 * **S3 VPC Gateway Endpoint** used to avoid public internet traffic
-
-📌 *VPC / Endpoint Screenshot*
-
-![VPC Endpoint](images/vpc_endpoint.png)
 
 ---
 
@@ -198,7 +169,7 @@ ORDER BY d.year, d.month, total_cases DESC;
 
 📌 *Query Result Screenshot*
 
-![Redshift Query Result](images/redshift_query_result.png)
+![Redshift Query Result](AWS_Output_Screenshots/Redshift_query_output.png)
 
 ---
 
